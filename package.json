@@ -1,0 +1,27 @@
+{
+  "name": "systemical",
+  "version": "0.0.1",
+  "description": "Alternative to Simply Plural & Octocon",
+  "homepage": "https://github.com/SystemicalApp/Systemical#readme",
+  "bugs": {
+    "url": "https://github.com/SystemicalApp/Systemical/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SystemicalApp/Systemical.git"
+  },
+  "license": "AGPL-3.0",
+  "author": "Onyx",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc && electron ."
+  },
+  "dependencies": {
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "electron": "^41.0.3"
+  }
+}
